@@ -1,4 +1,4 @@
-
+import peachlogo from "../assets/button อุปกรณ์กีฬา 274 x 330px.png";
 import { Icon } from '@iconify/react';
 
 function HeroSection() {
@@ -14,7 +14,7 @@ function HeroSection() {
                     </div>
                     <a href="" className='bg-primary1 wh-shop border-5 border-primary4 absolute position-shop items-center flex justify-center text-uppercase px-4 font-size48 text-primary4'> Shop now </a>
                     <div className="peach-page1">
-                        <img src="/src/assets/peach1หน้าแรก361.88x367.36px.png" alt="peach-logo" />
+                        <img src={peachlogo} alt="peach-logo" />
                     </div>
                 </div>
                 {/* Arrow */}
